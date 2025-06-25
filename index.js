@@ -20,7 +20,7 @@ let limit_of_width = 800
 
 // Responsive and adjustable variables making process down here!!!!!!!!!!!!
 let whole_width = document_width/4.5
-let whole_height = document_height/3.4
+let whole_height = document_height/2
 
 // Responsive and adjustable making process down here!!!!!!!!!!!!
 whole.style.width = `${whole_width}px`
