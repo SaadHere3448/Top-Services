@@ -1,3 +1,4 @@
+function start(){
 // variables intialization and some other works down here!!!!!!!
 let document_width = Math.max(
     document.body.scrollWidth,
@@ -51,4 +52,11 @@ if (document_width >= 1050){
             icon.style.transform = 'translateY(0px)'
         })
     })
+}
+}
+let promise = new Promise((resolve, reject)=>{
+    return start()
+})
+async function go() {
+    await promise
 }
