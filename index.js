@@ -60,3 +60,4 @@ let promise = new Promise((resolve, reject)=>{
 async function go() {
     await promise
 }
+go()
