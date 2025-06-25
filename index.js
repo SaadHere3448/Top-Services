@@ -25,6 +25,7 @@ let whole_height = document_height/3.4
 // Responsive and adjustable making process down here!!!!!!!!!!!!
 whole.style.width = `${whole_width}px`
 whole.style.height = `${whole_height}px`
+whole.style.display = 'none'
 whole.style.fontSize = `${whole_width/30}px`
 whole.style.lineHeight = `${whole_width/20}px`
 image_1.style.width = `${whole_width}px`
@@ -61,3 +62,5 @@ async function go() {
     await promise
 }
 go()
+let whole = document.getElementById('whole')
+whole.style.display = 'inline'
