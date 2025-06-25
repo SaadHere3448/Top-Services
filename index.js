@@ -62,5 +62,3 @@ async function go() {
     await promise
 }
 go()
-let whole = document.getElementById('whole')
-whole.style.display = 'inline'
