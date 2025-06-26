@@ -22,7 +22,8 @@ body{
 .whole{
     box-shadow: 16px 13px 16px rgb(66, 66, 66);
     margin: 20px;
-    overflow: hidden;
+    height: 98vh;
+    overflow-X: hidden;
     background-color: white;
 }
 .text-sect{
